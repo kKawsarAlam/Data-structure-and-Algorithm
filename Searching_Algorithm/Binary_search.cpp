@@ -26,7 +26,7 @@ int main() {
     cout << "How many element : ";
     cin >> n;
     vector<int> arr(n);
-    cout << "The element :";
+    cout << "The Element :";
     for(int i=0; i<n; i++) {
         cin >> arr[i];
     }
