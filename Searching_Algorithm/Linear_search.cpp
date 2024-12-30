@@ -8,12 +8,15 @@ int linear_search(vector<int> &arr, int target) {
 }
 int main() {
     int n;
+    cout << "How many number : ";
     cin >> n;
     vector<int> arr(n);
+    cout << "The elements : ";
     for(int i=0; i<n; i++) {
         cin >> arr[i];
     }
     int target;
+    cout << "The target value : ";
     cin >> target;
     int index = linear_search(arr, target);
 
